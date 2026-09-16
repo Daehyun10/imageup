@@ -55,7 +55,7 @@ pyinstaller --noconfirm --noconsole --onefile --name ImageOverlay overlay.py
 ### 방법 3 — 깃허브에서 자동 빌드
 
 저장소에 푸시하면 `.github/workflows/build.yml`이 Windows 러너에서 exe를 만든다.
-Actions 탭 -> 해당 실행 → Artifacts의 `ImageOverlay`를 내려받으면 된다.
+Actions 탭 -> 해당 실행 -> Artifacts의 `ImageOverlay`를 내려받으면 된다.
 
 만들어진 exe는 Python 없이 단독으로 실행된다. 첫 실행이 몇 초 걸릴 수 있고,
 서명이 없어 SmartScreen 경고가 뜨면 `추가 정보 -> 실행`을 누른다.
